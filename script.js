@@ -4,7 +4,7 @@ function myfunction() {
 
 function sub() {
   event.preventDefault();
-  alert("hello");
+  alert("Mail Sent Succesfully");
   emailjs.send(
     "service_qanxv6w",
     "template_5g7ruee",
