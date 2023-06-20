@@ -1,5 +1,5 @@
 {
-  "name": "alokrai0607.github.io",
+  "name": "anshuamn2601.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
@@ -9,16 +9,16 @@
   
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alokrai0607/alokrai0607.github.io.git"
+    "url": "git+https://github.com/anshuamn2601/anshuamn2601.github.io.git"
   },
 
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alokrai0607/alokrai0607.github.io/issues"
+    "url": "https://github.com/anshuamn2601/anshuamn2601.github.io/issues"
   },
-  "homepage": "https://github.com/alokrai0607/alokrai0607.github.io#readme",
+  "homepage": "https://github.com/anshuamn2601/anshuamn2601.github.io#readme",
   "dependencies": {
     "emailjs": "^4.0.2"
   }

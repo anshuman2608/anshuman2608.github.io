@@ -56,10 +56,10 @@
 }
 
 :root {
-  --bg-color: #1f242d;
-  --second-bg-color: #323946;
-  --text-color: #eee6ee;
-  --main-color: rgb(39, 226, 247);
+  --bg-color:  #ffffff;
+  --second-bg-color: #f8f8f8;
+  --text-color: #333;
+  --main-color: #ff8c00;
 
 }
 
@@ -80,7 +80,7 @@ body {
 
 .topnav {
   width: 100%;
-  background-color: #333;
+  background-color: #f8f8f8;
   height: 80px;
   display: flex;
   justify-content: space-around;
@@ -103,12 +103,14 @@ body {
 }
 
 #logo {
-  width: 100px;
-  height: 82px;
+  width: 80px;
+  height: 75px;
 }
 
 #resume-button-1 {
-  background-color: #333;
+  background-color: #f8f8f8 ;
+  border-radius: 5%;
+  justify-content: center;
 }
 
 /**************************************** home Section **************************************/
@@ -117,10 +119,10 @@ body {
   height: 10%;
   margin-left: 50%;
   margin-top: auto;
-  border-radius: 10px;
+  border-radius: 10%;
   margin-top: 100px;
   width: 25vw;
-  animation: floatImage 4s ease-in-out infinite;
+  animation: floatImage 10s ease-in-out infinite;
 }
 
 #home {
@@ -190,7 +192,7 @@ h6 {
 
 h2 {
   font-size: 4rem;
-  color: greenyellow;
+  color: #333;
   font-weight: 700;
   font-family: 'Times New Roman', Times, serif;
   
@@ -205,7 +207,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.6rem;
 }
 
@@ -281,17 +283,19 @@ h3 {
 #projects {
   padding: 100px;
   height: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  margin: 50px;
+  display: block;
+  /* grid-template-columns: 1fr 1fr; */
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  margin-bottom: 50px;
 }
 
 #projects .project-card {
 
   background: var(--second-bg-color);
-  padding: 5px;
+  padding: 10px;
   border-radius: 1rem;
   text-align: center;
 
