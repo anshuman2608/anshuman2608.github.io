@@ -281,31 +281,30 @@ h3 {
 /******************************************************* Portfolio Section ************************************/
 
 #projects {
+  width: 100vw;
   padding: 100px;
   height: auto;
-  margin: 50px;
-  display: block;
-  /* grid-template-columns: 1fr 1fr; */
+  display: grid;
+  grid-template-columns: 1fr , 1fr;
   justify-content: center;
   align-items: center;
   gap: 2rem;
   margin-bottom: 50px;
 }
 
-#projects .project-card {
-
+.project-card {
+  width: 100%;
   background: var(--second-bg-color);
   padding: 10px;
   border-radius: 1rem;
   text-align: center;
-
 }
 
 .project-card img {
   padding: 20px;
-  width: 700px;
-  height: 400px;
-  transition: .5s ease;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
 }
 
 .project-card .bx,
@@ -315,32 +314,16 @@ h3 {
   color: var(--main-color);
 }
 
-.project-card :hover img {
+.project-card:hover img {
   transform: scale(1.1);
 }
 
-/********************************git Section *******************/
-
-
-.git_statics {
-  margin: auto;
-  height: auto;
-  width: 90vw;
-  padding: 30px;
-}
-
-#gitst {
-  margin-top: 10px;
-  display: grid;
-  grid-template-rows: 1fr;
-  align-items: center;
-  justify-content: center;
-}
-
-#gitst img {
-
-  width: 400px;
-  height: 200px;
+/* Additional styles for responsiveness */
+@media screen and (max-width: 768px) {
+  #projects {
+    grid-template-columns: 1fr;
+    padding: 50px;
+  }
 }
 
 
