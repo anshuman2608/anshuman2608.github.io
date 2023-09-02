@@ -37,7 +37,19 @@ GitHubCalendar(".calendar", "anshuman2608");
 GitHubCalendar(".calendar", "anshuman2608", { responsive: true });
 function resume() {
   window.open(
-    "https://drive.google.com/file/d/11lccrElsnaKbaPm9_RyeLkpEFrayS_dM/view?usp=sharing",
+    "https://drive.google.com/file/d/1YjN1Pil5nFPSbRdc5PryZ8oJbaYW_ZIv/view",
     "_blank"
   );
+}
+
+function openResume() {
+  var pdfFile = './Images/Anshuman-Singh-Resume.pdf'; // Replace with the actual local file path
+    
+  // Open the resume in a new tab
+  var newTab = window.open(pdfFile, '_blank');
+  
+  // Cleanup the new tab when it's closed
+  newTab.addEventListener('beforeunload', function() {
+      newTab.close();
+  });
 }
